@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-center {
+    flex: 2;
+    text-align: center;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo {
+    max-height: 50px;
+}
+
+.search-container {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-right: 35%;
+}
+
+#search {
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+#search::placeholder {
+    color: #aaa;
+}
+
+#search-button {
+    background: none;
+    border: none;
+    padding: 0px 65px;
+    cursor: pointer;
+}
+
+#search-button img {
+    max-height: 20px;
+}
+
+#search-button:hover img {
+    filter: brightness(0.8);
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#botoncarrito {
+    background: none;
+    border: none;
+    padding: 0px 35px;
+    cursor: pointer;
+}
+
+#botoncarrito img {
+    max-height: 70px;
+}
+
+#botoncarrito:hover img {
+    filter: brightness(0.8);
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.button-item img {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    border-radius: 10px; /* Opcional: Agrega bordes redondeados a las imágenes */
+    cursor: pointer; /* Hace que la imagen parezca un botón */
+    transition: transform 0.3s; /* Animación para cuando se hace hover sobre la imagen */
+}
+
+.button-item img:hover {
+    transform: scale(1.1); /* Agranda la imagen un poco cuando se hace hover */
+}
+
+.button-item p {
+    margin-top: 5px;
+    font-size: 14px; /* Ajusta el tamaño del texto según tus necesidades */
+    color: #333; /* Ajusta el color del texto según tus necesidades */
+}
+
+.TituloCategorias{
+    margin-left: 45%;
+    font: 150% sans-serif;
+}
+
+.BotonOferta img{
+    background: none;
+    border: none;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
